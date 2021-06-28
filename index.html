@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Shivamani Bartaula</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" href="/Internal/android-chrome-512x512.png" />
+	</head>
+	<body>
+	
+		</section>
+		<section>
+		<div class="topContainer">
+			<img class="topCloud" src="cloud.png" alt="cloud" />
+			<h1>I'm Shivamani</h1>
+			<p><h2>a web developer</h2></p>
+			<img class="bottomCloud" src="cloud.png" alt="cloud" />
+			<img class="mountain" src="mountain.png" alt="cloud" />
+		</div>
+
+		<div class="middle-container">
+			<div class="profile">
+				<img
+					class="profileImage"
+					src="Profile.jpeg"
+					alt="profile image"
+				/>
+				<h2>Hello</h2>
+				<p class="my-description">
+					I am self taught Web Developer, I'm founder of my small startup noShiva. I love ❤️ drinking coffee and playing with computers.</p>
+			</div>
+			<hr>
+
+			<div class="skills">
+				<h2>My Skills.</h2>
+				<div class="skill-row">
+					<img
+						class="skills-image"
+						src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif"
+						alt="Programmer image"
+					/>
+					
+					<h2 class="skill-heading">Design & development</h2>
+					<P class="my-skills-intro">I started learning HTML when I was in high school during my holidays from then I started getting intrested in 
+						coding because I wanted to create a website just for my fun and online presense. But due to some problem I decided to choose 
+					different field on study and graduated +2 but I had passion towards technology thats why I again decided to follow my dream and choosed this path again.
+				 </P>
+				</div>
+				<div class="skill-row">
+					<img
+						class="playstation"
+						src="https://media.giphy.com/media/AhhGtrpj5ZxGZER5yC/giphy.gif"
+					/>
+					<h2 class="skill-heading" >Playing PES </h2>
+					<p class="skill-descriptoion">
+						If you wanna play football in in PlayStation then I am
+						available anytime and will try to contact within in 24
+						hours.
+					</p>
+				</div>
+
+			</div>
+			<hr />
+			<div class="contact-me">
+				<h2>Get In Touch</h2>
+				
+				<h3 class="my-passion">If you love Playing football as much as I do lets get Connected</h3>
+
+				<a class="btn" href="#">CONTACT ME</a>
+			</div>
+		</div>
+
+		<div class="bottom-container">
+			<a
+				class="footer-link linkedin"
+				href="https://www.linkedin.com/in/shivamani-bartaula-3a5a61152/"
+				target="_blank"
+				>LinkedIn</a
+			>
+			<a
+				class="footer-link tweet"
+				href="https://twitter.com/Aayush_Bartaula"
+				target="_blank"
+				>Twitter</a
+			>
+			<p class="copy-right">© 2018 Shivamani Bartaula.</p>
+		</div>
+		</section>
+	<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+</html>
